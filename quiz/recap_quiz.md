@@ -82,7 +82,7 @@ D. The network configuration for a container
 ## Question 7  
 **What does the following command do?**
 
-```bash
+```
 docker run -d -p 8080:80 nginx
 ```
 
