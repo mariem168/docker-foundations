@@ -72,7 +72,43 @@ D. The network configuration for a container
 
 ---
 
-## Question 7  
+## Question 7
+**What file is used by Docker Compose to define multi-container apps?**
+
+A. Dockerfile
+B. composefile.txt
+C. docker-compose.yml
+D. container.yml
+
+**Answer:** C
+
+---
+
+## Question 8
+**Which of the following is NOT a benefit of using Docker Compose?**
+
+A. Managing multiple services easily
+B. Starting all containers with a single command
+C. Building Docker images manually
+D. Defining networks and volumes declaratively
+
+**Answer:** C
+
+---
+
+## Question 9
+**Which layer of a Docker image is affected by the RUN instruction in a Dockerfile?**
+
+A. Metadata only
+B. Environment variables
+C. A new intermediate image layer
+D. Base kernel
+
+**Answer:** C
+
+---
+
+## Question 10 
 **What does the following command do?**
 
 ```bash
