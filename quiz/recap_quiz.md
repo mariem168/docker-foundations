@@ -91,7 +91,7 @@ B. Runs an nginx container in detached mode and maps port 8080 on the host to 80
 C. Updates the nginx container
 D. Deletes the nginx image and container
 
-**Answer:**B
+**Answer:** B
 
 ---
 
@@ -109,7 +109,7 @@ D. container.yml
 ---
 
 
-##Question 9
+## Question 9
 **Which of the following is NOT a benefit of using Docker Compose?**
 
 A. Managing multiple services easily
@@ -122,7 +122,7 @@ D. Defining networks and volumes declaratively
 ---
 
 
-##Question 10
+## Question 10
 **Which layer of a Docker image is affected by the RUN instruction in a Dockerfile?**
 
 A. Metadata only
