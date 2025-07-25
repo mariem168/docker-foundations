@@ -85,6 +85,7 @@ D. The network configuration for a container
 ```bash
 docker run -d -p 8080:80 nginx
 ```
+
 A. Builds an image from the nginx Dockerfile
 B. Runs an nginx container in detached mode and maps port 8080 on the host to 80 in the container
 C. Updates the nginx container
