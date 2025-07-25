@@ -12,8 +12,7 @@ D. It controls the container's network settings only
 
 ---
 
-
-### Question 2  
+## Question 2  
 **Which of the following best describes containerization compared to virtualization?**
 
 A. Containerization uses more resources  
@@ -24,7 +23,6 @@ D. Containerization is slower but more isolated
 **Answer:** C
 
 ---
-
 
 ## Question 3
 **Which of the following is NOT a Linux namespace used in containerization?**
@@ -38,7 +36,6 @@ D. PID
 
 ---
 
-
 ## Question 4  
 **What does the `FROM` instruction do in a Dockerfile?**
 
@@ -50,7 +47,6 @@ D. Exposes a port
 **Answer:** C
 
 ---
-
 
 ## Question 5  
 **Which command is used to build a Docker image from a Dockerfile?**
@@ -64,13 +60,11 @@ D. `docker compose`
 
 ---
 
-
-
 ## Question 6  
 **Which of the following best describes a Docker image?**
 
 A. A running instance of a container  
-B. A snapshot of a container’s logs  
+B. A snapshot of a container's logs  
 C. A lightweight, read-only blueprint to create containers  
 D. The network configuration for a container  
 
@@ -78,56 +72,16 @@ D. The network configuration for a container
 
 ---
 
-
 ## Question 7  
 **What does the following command do?**
 
-```
+```bash
 docker run -d -p 8080:80 nginx
 ```
 
 A. Builds an image from the nginx Dockerfile
 B. Runs an nginx container in detached mode and maps port 8080 on the host to 80 in the container
 C. Updates the nginx container
-D. Deletes the nginx image and container
+D. Deletes the nginx image and contain
 
 **Answer:** B
-
----
-
-
-## Question 8
-**What file is used by Docker Compose to define multi-container apps?**
-
-A. Dockerfile
-B. composefile.txt
-C. docker-compose.yml
-D. container.yml
-
-**Answer:** C
-
----
-
-
-## Question 9
-**Which of the following is NOT a benefit of using Docker Compose?**
-
-A. Managing multiple services easily
-B. Starting all containers with a single command
-C. Building Docker images manually
-D. Defining networks and volumes declaratively
-
-**Answer:** C
-
----
-
-
-## Question 10
-**Which layer of a Docker image is affected by the RUN instruction in a Dockerfile?**
-
-A. Metadata only
-B. Environment variables
-C. A new intermediate image layer
-D. Base kernel
-
-**Answer:** C
